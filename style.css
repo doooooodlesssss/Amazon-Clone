@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navbar{
+    height: 60px;
+    /* width: vw; */
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.amalogo{
+    height: 60px;
+    width: 113px;
+    margin: 0px 0px 0px 1px;
+    padding: 4px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    height: auto;
+    width: 106px;
+    margin: 1px;
+    padding: 1px 0px 0px 6px;
+}
+
+.deliver{
+    height: 60px;
+    width: 88px;
+    margin: 0px 2px 5px 0px;
+    padding: 0px 9px;
+}
+#del{
+    font-size: 12px;
+    color: #cccccc;
+}
+#india{
+    font-size: 14px;
+}
+#deliverText{
+    height: 12px;
+    margin-left: 37px;
+    padding-top: 12px;
+}
+
+#locIcon{
+    width: 65px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.menuBar{
+    height: 39px;
+    background-color: #222F3E;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+.menuItem{
+    margin-right: 25px;
+}
+#menu{
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+}
+#menuAll{
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.mainImage{
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(226, 230, 230, 0), rgba(226, 230, 230, 0), rgba(226, 230, 230, 1)), url(/images/71YTsbTxBsL._SX3000_.jpg);
+    background-size: cover;
+    position: relative;
+}
+.mainBody{
+    position: absolute;
+    top: 350px;
+    /* left: 15px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(226, 230, 230, 0),rgba(226, 230, 230, 1),rgba(226, 230, 230, 1), rgba(226, 230, 230, 1), rgba(226, 230, 230, 1), rgba(226, 230, 230, 1));
+    /* background-color: #E2E6E6; */
+}
+#notif{
+    background-color: #F5F6F6;
+    width: 97%;
+    height: 25px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.recBox1{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+.recBox{
+    width: 1400px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h2{
+    font-size: 21px;
+}
+.singleImage{
+    margin-top: 7px;
+    height: 290px;
+    width: 300px;
+}
+.shopnow{
+    position: relative;
+    top: 12px;
+    text-decoration: none;
+}
+.recBox2{
+    height: 366px;
+    width: 1342px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+.signIn{
+    /* position: absolute; */
+    background-color: white;
+    width: 100%; 
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid grey; */
+}
+#signInButton{
+    margin: 5px;
+    height: 28px;
+    width: 230px;
+    background-color: #ffc83d;
+    /* background-image: linear-gradient(to bottom, rgba(255,216,114,255), rgba(255,217,120,255), rgba(255,217,120,255), rgba(255,217,120,255)); */
+    border: 1px solid #e6a400;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.newSignIn{
+    font-size: 11px;
+}
+.top{
+    background-color: #37475A;
+    height: 49px;
+    width: 100%;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.blahh{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #232E3E;
+    color: white;
+    /* padding: 50px; */
+}
+.upperBlah{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lowerBlah{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    color: #dddddd;
+}
+#lineBreak{
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 0.1px;
+}
+
+.butts{
+    height: 35px;
+    width: 150px;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: left;
+}
+#buttons{
+    margin: 10px;
+    margin-left: 100px;
+}
