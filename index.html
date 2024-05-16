@@ -18,16 +18,18 @@
 
             <div class="deliver">
                 <div id="deliverText">
-                    <p id="del">Deliver to</p>
+                    <!-- <p id="del">Deliver to</p> -->
+                    Deliver to
                 </div>
+
                 <div id="locIcon">
                     <i class="fa-solid fa-location-dot"></i>
-                    <p id="india">India</p>
+                    <p class="boldf">India</p>
                 </div> 
             </div>
 
             <div class="searchBar">
-                <select name="All">
+                <select name="All" id="searchBar">
                     <option>All</option>
                     <option>Arts & Crafts</option>
                     <option>Automotive</option>
@@ -46,8 +48,41 @@
                     <option>Sports & Outdoors</option>
                     <option>Toys & Games</option>
                 </select>
-                
+
+                <input type="text" value="Search Amazon" id="search">
+
+                <button id="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
             </div>
+
+            <div id="language">
+                <div id="flag"> </div>
+                <select id="langbut" name="language">
+                    <option value="en">EN</option>
+                    <option value="es">español - ES</option>
+                    <option value="ar">الترجمة - AR</option>
+                    <option value="de">Deutsch - DE</option>
+                    <option value="pt">português - PT</option>
+                </select>
+            </div>
+
+            <div id="hemlo">
+                <p class="nonBoldF">Hello, Diya</p>
+                <p class="boldf">Account & Lists</p>
+            </div>
+
+            <div id="Returns">
+                <p class="nonBoldF">Returns</p>
+                <p class="boldf">& Orders</p>
+            </div>
+
+            <div id="cart">
+                <!-- <i class="fa-solid fa-cart-shopping"></i>
+                <p class="boldf">Cart</p> -->
+            </div>
+            
+
         </div>
     </header>
 
@@ -86,12 +121,34 @@
         <div class="recBox">
             <div class="recBox1">
                 <h2>Gaming accessories</h2>
+                <div class="fourImage">
+                    <div><img class ="fourim" src="/images/headset.jpg"></div>
+                    <div><img class ="fourim" src="/images/keyboard.jpg"></div>
+                    <div><img class ="fourim" src="/images/mice.jpg"></div>
+                    <div><img class ="fourim" src="/images/chair.jpg"></div>
+                </div>
+                <a href="#" class="shopnow">See more</a>
+
             </div>
             <div class="recBox1">
                 <h2>Shop deals in Fasion</h2>
+                <div class="fourImage">
+                    <div><img class ="fourim" src="/images/jeans.jpg"></div>
+                    <div><img class ="fourim" src="/images/tops.jpg"></div>
+                    <div><img class ="fourim" src="/images/dresses.jpg"></div>
+                    <div><img class ="fourim" src="/images/shoesUnder50.jpg"></div>
+                </div>
+                <a href="#" class="shopnow">See all deals</a>
             </div>
             <div class="recBox1">
                 <h2>Refresh your space</h2>
+                <div class="fourImage">
+                    <div><img class ="fourim" src="/images/dining.jpg"></div>
+                    <div><img class ="fourim" src="/images/home.jpg"></div>
+                    <div><img class ="fourim" src="/images/kitchen.jpg"></div>
+                    <div><img class ="fourim" src="/images/health.jpg"></div>
+                </div>
+                <a href="#" class="shopnow">See more</a>
             </div>
             <div class="recBox1">
                 <h2>Deals in PCs</h2>
@@ -102,7 +159,14 @@
         
         <div class="recBox">
             <div class="recBox1">
-                <h2>Amazon Gadget Store</h2>
+                <h2>Upgrade the beauty routine</h2>
+                <div class="fourImage">
+                    <div><img class ="fourim" src="/images/makeup.jpg"></div>
+                    <div><img class ="fourim" src="/images/brushes.jpg"></div>
+                    <div><img class ="fourim" src="/images/sponges.jpg"></div>
+                    <div><img class ="fourim" src="/images/mirrors.jpg"></div>
+                </div>
+                <a href="#" class="shopnow">See more</a>
             </div>
             <div class="recBox1">
                 <h2>Amazing gifts for every Dad</h2>
@@ -111,7 +175,10 @@
             </div>
             <div class="recBox1">
                 <h2>Top Deal</h2>
-                <!-- <img class="singleImage" src="/images/top deal.png">-->
+                <img class="singleImage1" src="/images/top deal.png">
+                <div id="discount">Up to 42% off</div>
+                <br>
+                <div>COSRX Skincare</div>
                 <a href="#" class="shopnow">See all deals</a> 
             </div>
             <div class="recBox1">
@@ -121,32 +188,78 @@
             </div>
         </div>
 
-        <div class="recBox2">
-            <h2>Exciting deals</h2>
+        <div class="recBox21">
+            <h2>Best Sellers in Beauty & Personal Care</h2>
+            <div id="bookBox">
+                <div class="prod" id="prod1"></div>
+                <div class="prod" id="prod2"></div>
+                <div class="prod" id="prod3"></div>
+                <div class="prod" id="prod4"></div>
+                <div class="prod" id="prod5"></div>
+                <div class="prod" id="prod6"></div>
+                <div class="prod" id="prod7"></div>
+                <div class="prod" id="prod8"></div>
+            </div>
         </div>
 
         <div class="recBox">
             <div class="recBox1">
                 <h2>Creating business solutions</h2>
+                <img class="singleImage" src="/images/business soln.jpg">
+                <a href="#" class="shopnow">Shop now</a>
             </div>
             <div class="recBox1">
-                <h2>Deals on shoes</h2>
+                <h2>Top Deal</h2>
+                <img class="singleImage1" src="/images/finalfinall.png">
+                <div id="discount">28% off</div>
+                <br>
+                <div>Medicube Age-R Booster Pro</div>
+                <a href="#" class="shopnow">See all deals</a> 
             </div>
             <div class="recBox1">
                 <h2>Warm and welcoming decor</h2>
+                <div class="fourImage">
+                    <div><img class ="fourim" src="/images/wreaths.jpg"></div>
+                    <div><img class ="fourim" src="/images/outdoor.jpg"></div>
+                    <div><img class ="fourim" src="/images/pillows.jpg"></div>
+                    <div><img class ="fourim" src="/images/wall art.jpg"></div>
+                </div>
+                <a href="#" class="shopnow">See more</a>
             </div>
             <div class="recBox1">
                 <h2>A whole new way to work</h2>
+                <img class="singleImage" src="/images/newWayWork.jpg">
+                <a href="#" class="shopnow">Shop now</a>
             </div>
         </div>
 
         <div class="recBox2">
             <h2>Best Sellers in Books</h2>
+            <div id="bookBox">
+                <div class="book" id="book1"> </div>
+                <div class="book" id="book2"> </div>
+                <div class="book" id="book3"> </div>
+                <div class="book" id="book4"> </div>
+                <div class="book" id="book5"> </div>
+                <div class="book" id="book6"> </div>
+                <div class="book" id="book7"> </div>
+            </div>
+           
+            <!-- <img class="book" src="/images/book1.jpeg">
+            <img class="book" src="/images/book2.jpeg">
+            <img class="book" src="/images/book3.jpeg">
+            <img class="book" src="/images/book4.jpeg">
+            <img class="book" src="/images/book5.jpeg">
+            <img class="book" src="/images/book6.jpg">
+            <img class="book" src="/images/book7.jpeg"> -->
+
+
+
         </div>
 
         <div class="signIn">
             <div>See personalized recommendations</div>
-                <button id="signInButton">
+                <button id="signInButton" >
                     Sign In
                 </button>
                 <div class="newSignIn">
@@ -158,9 +271,9 @@
         </div>
 
         <a class="top" href="#">
-            <div>
+            <!-- <div id="top"> -->
                 Back to top
-            </div>
+            <!-- </div> -->
         </a>
 
         <div class="blahh">
@@ -205,6 +318,9 @@
                 </div>
             </div>
 
+            <div id="line">
+
+            </div>
             
             <div class="lowerBlah">
                 <div class="amalogo">
@@ -214,10 +330,9 @@
                 </div>
 
                 <div id="buttons">
+
                     <select class="butts" name="language">
-                        <option data-content="<i class="fa-solid fa-globe"></i>English">
-                            English - EN
-                        </option>
+                        <option value="en">English - EN</option>
                         <option value="es">español - ES</option>
                         <option value="ar">الترجمة - AR</option>
                         <option value="de">Deutsch - DE</option>
@@ -231,17 +346,199 @@
     
                     <button class="butts">
                         <i class="fa-solid fa-earth-asia"></i>
+                        <!-- <div id="flag"> </div> -->
                         United States
                     </button>
+                </div>  
+            </div> 
+
+            <div class="lowestBlah">
+                <div id="footerDiv">
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Amazon Music</p>
+                            <p class="footText">Stream millions of songs</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Amazon Ads</p>
+                            <p class="footText">Reach customers wherever they spend their time</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">6pm</p>
+                            <p class="footText">Score deals on fashion brands</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">AbeBooks</p>
+                            <p class="footText">Books, art & collectibles</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">ACX</p>
+                            <p class="footText">Audiobook publishing made easy</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Sell on Amazon</p>
+                            <p class="footText">Start a selling account</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Amazon Business</p>
+                            <p class="footText">Everything for your business</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">AmazonGlobal</p>
+                            <p class="footText">Ship orders internationally</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Home Services</p>
+                            <p class="footText">Experienced pros Happiness Guarantee</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Amazon Web Services</p>
+                            <p class="footText">Scalable cloud computing services</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Audible</p>
+                            <p class="footText">Listen to Books & Original Audio Performances</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Box Office Mojo</p>
+                            <p class="footText">Find movie box office data</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Goodreads</p>
+                            <p class="footText">Book reviews & recommendations</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">IMDb</p>
+                            <p class="footText">movies, TV & celebrities</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">IMDbPro</p>
+                            <p class="footText">get info entertainment professionals need</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Kindle Direct Publishing</p>
+                            <p class="footText">Indie digital & print publishing made easy</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Prime Video Direct</p>
+                            <p class="footText">Video distribution made easy</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Shopbop</p>
+                            <p class="footText">designer fashion brands</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Woot!</p>
+                            <p class="footText">deals and shenanigans</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Zappos</p>
+                            <p class="footText">shoes & clothing</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Ring</p>
+                            <p class="footText">smart home security systems</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">eero WiFi</p>
+                            <p class="footText">stream 4K video in every room</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Blink</p>
+                            <p class="footText">smart security for every home</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Neighbors App</p>
+                            <p class="footText">real-time crime and safety alerts</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">Amazon Subscription Boxes</p>
+                            <p class="footText">top Subscription boxes- right to your door</p>
+                        </a>
+                    </div>
+                    <div class="footerTexts">
+                        <a class="footAnchor" href="#">
+                            <p class="footHead">PillPack</p>
+                            <p class="footText">pharmacy simplified</p>
+                        </a>
+                    </div>
+                    <div id="lastLast">
+                        <div id="last">
+                            <div class="footHead footAnchor">Conditions of Use</div>
+                            <div class="footHead footAnchor">Privacy Notice</div>
+                            <div class="footHead footAnchor">Consumer Health Data Privacy Disclosure</div>
+                            <div class="footHead footAnchor">Your Ads Privacy Choices</div>
+                        </div>
+
+                        <div class="footHead footAnchor" id="pakkaLast"><b>© 1996-2024, Amazon.com, Inc. or its affiliates</b></div>
+    
+                    </div>
+                    
                 </div>
                 
-                   
-                
-            </div>
-            
 
+            </div>
+
+            <!-- <div id="last">
+                <div class="footHead footAnchor">Conditions of Use</div>
+                <div class="footHead footAnchor">Privacy Notice</div>
+                <div class="footHead footAnchor">Consumer Health Data Privacy Disclosure</div>
+                <div class="footHead footAnchor">Your Ads Privacy Choices</div>
+            </div> -->
+            
+            <!-- <div class="footHead footAnchor" id="pakkaLast"><b>© 1996-2024, Amazon.com, Inc. or its affiliates</b></div> -->
+
+               
         </div>        
-        <div id="lineBreak">  </div>
+        <!-- <div id="lineBreak">  </div> -->
 
     </div>
 
